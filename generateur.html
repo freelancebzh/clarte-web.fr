@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Générateur de Site Express Gratuit | Arc-en-Ciel Web</title>
+<title>Générateur de Site Express Gratuit | Clarté Web</title>
 <meta name="description" content="Créez gratuitement une première page web statique pour votre activité en moins de 2 minutes : formulaire simple, fichier HTML téléchargé, sans inscription.">
 <link rel="canonical" href="https://www.arc-en-ciel-services.fr/generateur.html">
 <link rel="stylesheet" href="style.css">
@@ -12,7 +12,7 @@
 
 <header class="site-header">
   <div class="wrap">
-    <a class="brand" href="index.html"><img class="brand-logo" src="assets/logo-mark.png" alt="">Arc-en-Ciel Web</a>
+    <a class="brand" href="index.html"><img class="brand-logo" src="assets/logo-mark.png" alt="">Clarté Web</a>
     <nav class="primary" aria-label="Navigation principale">
       <ul>
         <li><a href="index.html">Accueil</a></li>
@@ -104,6 +104,7 @@
           <li><a href="realisations.html">Réalisations</a></li>
           <li><a href="blog.html">Blog & Actu</a></li>
           <li><a href="lexique.html">Lexique</a></li>
+          <li><a href="generateur.html">Générateur de site</a></li>
           <li><a href="liens-utiles.html">Sites utiles</a></li>
           <li><a href="contact.html">Contact</a></li>
           <li><a href="site-map.html">Plan du site</a></li>
@@ -112,7 +113,7 @@
       </nav>
     </div>
     <div class="foot-bottom">
-      <span>© 2026 Arc-en-Ciel Web — Tous droits réservés.</span>
+      <span>© 2026 Clarté Web — Tous droits réservés.</span>
       <span>Domagné, Ille-et-Vilaine</span>
     </div>
   </div>
@@ -197,7 +198,7 @@ function buildSiteHtml(data){
   if(data.adresse){ contact += 'Adresse / zone : ' + data.adresse; }
   parts.push('<section><h2>Contact</h2><p>' + contact + '</p></section>');
   parts.push('</main>');
-  parts.push('<footer>Page générée avec le générateur gratuit d\'Arc-en-Ciel Web.</footer>');
+  parts.push('<footer>Page générée avec le générateur gratuit d\'Clarté Web.</footer>');
   parts.push('</body>');
   parts.push('</html>');
   return parts.join('\n');
