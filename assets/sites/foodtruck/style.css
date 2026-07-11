@@ -114,7 +114,7 @@ a{ color: var(--rouge-tomate); }
 .hero-visuel{
   aspect-ratio: 4/3; background: linear-gradient(155deg, var(--rouge-tomate), var(--vert-sapin));
 }
-img.hero-visuel{ object-fit: cover; }
+img.hero-visuel{ width: 100%; object-fit: cover; }
 @media (min-width: 861px){ .hero-visuel{ aspect-ratio: auto; height: 100%; } }
 
 .hero-copy{ padding: 32px 20px 40px; }
@@ -185,7 +185,8 @@ section{ padding: clamp(40px, 6vw, 72px) 0; }
 }
 .pizza-card .visuel{ aspect-ratio: 1; background: linear-gradient(160deg, var(--rouge-tomate), var(--vert-sapin-dk)); }
 img.pizza-card-img, .pizza-card img.visuel{ width:100%; height:100%; object-fit: cover; display:block; }
-.pizza-card .corps{ padding: 12px 14px 16px; }
+.pizza-card .corps-haut{ padding: 12px 14px 8px; }
+.pizza-card .corps-bas{ padding: 10px 14px 16px; }
 .pizza-card h3{ font-size: .98rem; margin-bottom: .3em; }
 .tag-vegan, .tag-vege{
   display: inline-block; font-size: .68rem; font-weight: 700; text-transform: uppercase;
